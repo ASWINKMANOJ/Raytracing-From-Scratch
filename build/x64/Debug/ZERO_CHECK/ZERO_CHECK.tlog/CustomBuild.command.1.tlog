@@ -1,0 +1,10 @@
+^C:\RAYTRACING ENGINE\BUILD\CMAKEFILES\0ABBE45D6BB34B9D8AC412F05430645E\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/RayTracing Engine" "-BC:/RayTracing Engine/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/RayTracing Engine/build/RayTracingEngine.slnx"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
