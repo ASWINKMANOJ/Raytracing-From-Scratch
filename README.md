@@ -50,6 +50,7 @@ Images will be saved in the project directory.
 ![Sample Raytraced Scene](docs/sample_output.png "Raytraced Scene Output")
 
 ![Diffuse Material Scene](docs/diffuse_material.png "Diffuse Material Output")
+![Metal Material Scene](docs/metal_material.png "Metal Material Output")
 
 *For more example images, see the `docs` or `images` folder.*
 
